@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    background-color: #f9fafb;
+    color: #1f2933;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #020617;
+}
+
+nav a {
+    color: #e5e7eb;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* SECTIONS */
+section {
+    max-width: 950px;
+    margin: auto;
+    padding: 40px 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+h2 {
+    color: #2563eb;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* EDUCATION / TEXT */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* SKILLS */
+.skill-group {
+    margin-bottom: 25px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills-container span {
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    font-size: 14px;
+}
+
+/* EXPERIENCE & PROJECTS */
+section p, section li {
+    font-size: 15px;
+}
+
+/* CONTACT */
+#contact p {
+    margin-bottom: 6px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0f172a;
+    color: #cbd5f5;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+}
+/* PROFILE LINKS */
+#profiles {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.profile-links a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #2563eb;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.profile-links a:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+    .profile-links {
+        flex-direction: column;
+    }
+
+    .profile-links a {
+        text-align: center;
+    }
+}
